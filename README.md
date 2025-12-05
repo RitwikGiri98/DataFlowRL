@@ -1,6 +1,5 @@
 # 🚀 DataFlowRL  
 ### Reinforcement Learning for Data Pipeline Optimization  
-**MS in Information Systems – Agentic AI Systems Final Project**
 
 ![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
 ![RL](https://img.shields.io/badge/Reinforcement%20Learning-DQN%20%2B%20UCB-brightgreen.svg)
