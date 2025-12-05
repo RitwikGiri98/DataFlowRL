@@ -218,8 +218,8 @@ Generates:
 - Cost: RL is cheaper by about **6.87%** on average.
 - Quality: RL changes quality by about **-0.66** percentage points on average.
 
-  **Learning curves show clear improvement over training episodes**
-  **RL consistently outperforms the heuristic baseline**
+- **Learning curves show clear improvement over training episodes**
+- **RL consistently outperforms the heuristic baseline**
 
 
 
