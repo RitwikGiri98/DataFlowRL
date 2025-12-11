@@ -91,7 +91,7 @@ def main():
     )
 
     # 1) TRAINING LOOP (RL)
-    num_train_episodes = 50
+    num_train_episodes = 200
     print(f"=== Training RL controller (mode='{mode}') for {num_train_episodes} episodes ===")
 
     train_summaries: List[Dict[str, Any]] = []
@@ -139,7 +139,7 @@ def main():
     print("Saved baseline history to 'baseline_history.csv'.")
 
     # 3) EVALUATION OF TRAINED RL (no exploration)
-    num_eval_episodes = 20
+    num_eval_episodes = 50
     print(f"\n=== Evaluating trained RL policy for {num_eval_episodes} episodes ===")
 
     eval_summaries: List[Dict[str, Any]] = []

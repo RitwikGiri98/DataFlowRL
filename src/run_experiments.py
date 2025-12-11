@@ -61,7 +61,7 @@ def run_single_experiment(dataset_meta, pipeline_def):
 
     ### TRAIN RL ###
     train_summaries = []
-    for ep in range(1, 40):  # 40 episodes per experiment
+    for ep in range(1, 201):  # 200 episodes per experiment
         result = controller.run_episode(train=True)
         train_summaries.append(summarize(ep, "train_rl", result))
 
@@ -77,7 +77,7 @@ def run_single_experiment(dataset_meta, pipeline_def):
 
     ### EVAL RL ###
     eval_summaries = []
-    for ep in range(1, 20):
+    for ep in range(1, 51):  # 50 episodes per experiment
         result = controller.run_episode(train=False)
         eval_summaries.append(summarize(ep, "eval_rl", result))
 
